@@ -32,8 +32,8 @@
       <circle cx="400" cy="92" r="3.5" fill="#06b6d4"/>
       <text class="year" x="400" y="58" text-anchor="middle" fill="#06b6d4">2021</text>
       <text class="company" x="400" y="134" text-anchor="middle">Reliance Jio</text>
-      <text class="role" x="400" y="158" text-anchor="middle">Executive Engineer</text>
-      <text class="detail" x="400" y="180" text-anchor="middle">Telecom network rollout</text>
+      <text class="role" x="400" y="158" text-anchor="middle">Software Engineer</text>
+      <text class="detail" x="400" y="180" text-anchor="middle">FTTx Portal System</text>
       <text class="period" x="400" y="202" text-anchor="middle">2021 – May 2022</text>
     </g>
     <g>

@@ -139,7 +139,7 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
   network-bound and improved load times with response compression and connection-pool warm-up.
 - **Medimaze Solution** (formerly Techjivaa, Jun 2022 – Aug 2024), Software Developer: Krsnaa ERP and Admin Portal, and the
   ABHA healthcare ERP for the Assam Government; Web APIs, MVC front ends and Telerik reports in a 17-member team.
-- **Reliance Jio** (Jul 2021 – May 2022), Executive Engineer: coordinated technical execution in a large-scale telecom rollout.
+- **Reliance Jio** (Jul 2021 – May 2022), Software Engineer: built the FTTx fibre-rollout portal and Live Tracker for Construction, GIS and Production teams (ASP.NET Core MVC, C#, SQL Server).
 - **Glyphisoft Technology** (Jul 2019 – Feb 2021), .NET Developer: ERP modules with ASP.NET Core MVC, C# and SQL Server.
 
 </details>

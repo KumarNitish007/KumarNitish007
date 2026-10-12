@@ -175,7 +175,7 @@ def project_card(p: dict, theme: str) -> str:
 
 JOBS = [
     ("2019", "Feb 2021", "Glyphisoft Technology", ".NET Developer", "ERP modules · ASP.NET Core MVC"),
-    ("2021", "May 2022", "Reliance Jio", "Executive Engineer", "Telecom network rollout"),
+    ("2021", "May 2022", "Reliance Jio", "Software Engineer", "FTTx Portal System"),
     ("2022", "Aug 2024", "Medimaze Solution", "Software Developer", "Healthcare ERP · Krsnaa, ABHA"),
     ("2024", "Present", "Orient Technology", ".NET Developer", "EPC ERP · .NET 8 + Angular 19"),
 ]
