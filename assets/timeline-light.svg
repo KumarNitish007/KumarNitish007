@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Career timeline">
+  <title>Career timeline: 2019 to present</title>
+  <style>
+    .year { font: 800 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; }
+    .company { font: 700 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; }
+    .role { font: 600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; opacity: .85; }
+    .detail { font: 400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #57606a; }
+    .period { font: 500 12px ui-monospace,SFMono-Regular,'Cascadia Code',Consolas,'Liberation Mono',monospace; fill: #57606a; }
+    .line { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 2.4s ease-out forwards; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-out infinite; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(2.6); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; stroke-dashoffset: 0; } .pulse { animation: none; } }
+  </style>
+  <defs><linearGradient id="tl" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="0.5" stop-color="#a855f7"/><stop offset="1" stop-color="#f59e0b"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="1199" height="229" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <line class="line" x1="120" y1="92" x2="960" y2="92" stroke="url(#tl)" stroke-width="3" stroke-linecap="round"/>
+  
+    <g>
+      
+      <circle cx="120" cy="92" r="9" fill="#ffffff" stroke="#6366f1" stroke-width="3"/>
+      <circle cx="120" cy="92" r="3.5" fill="#6366f1"/>
+      <text class="year" x="120" y="58" text-anchor="middle" fill="#6366f1">2019</text>
+      <text class="company" x="120" y="134" text-anchor="middle">Glyphisoft Technology</text>
+      <text class="role" x="120" y="158" text-anchor="middle">.NET Developer</text>
+      <text class="detail" x="120" y="180" text-anchor="middle">ERP modules · ASP.NET Core MVC</text>
+      <text class="period" x="120" y="202" text-anchor="middle">2019 – Feb 2021</text>
+    </g>
+    <g>
+      
+      <circle cx="400" cy="92" r="9" fill="#ffffff" stroke="#06b6d4" stroke-width="3"/>
+      <circle cx="400" cy="92" r="3.5" fill="#06b6d4"/>
+      <text class="year" x="400" y="58" text-anchor="middle" fill="#06b6d4">2021</text>
+      <text class="company" x="400" y="134" text-anchor="middle">Reliance Jio</text>
+      <text class="role" x="400" y="158" text-anchor="middle">Executive Engineer</text>
+      <text class="detail" x="400" y="180" text-anchor="middle">Telecom network rollout</text>
+      <text class="period" x="400" y="202" text-anchor="middle">2021 – May 2022</text>
+    </g>
+    <g>
+      
+      <circle cx="680" cy="92" r="9" fill="#ffffff" stroke="#a855f7" stroke-width="3"/>
+      <circle cx="680" cy="92" r="3.5" fill="#a855f7"/>
+      <text class="year" x="680" y="58" text-anchor="middle" fill="#a855f7">2022</text>
+      <text class="company" x="680" y="134" text-anchor="middle">Medimaze Solution</text>
+      <text class="role" x="680" y="158" text-anchor="middle">Software Developer</text>
+      <text class="detail" x="680" y="180" text-anchor="middle">Healthcare ERP · Krsnaa, ABHA</text>
+      <text class="period" x="680" y="202" text-anchor="middle">2022 – Aug 2024</text>
+    </g>
+    <g>
+      <circle cx="960" cy="92" r="9" fill="none" stroke="#f59e0b" stroke-width="2" class="pulse"/>
+      <circle cx="960" cy="92" r="9" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+      <circle cx="960" cy="92" r="3.5" fill="#f59e0b"/>
+      <text class="year" x="960" y="58" text-anchor="middle" fill="#f59e0b">2024</text>
+      <text class="company" x="960" y="134" text-anchor="middle">Orient Technology</text>
+      <text class="role" x="960" y="158" text-anchor="middle">.NET Developer</text>
+      <text class="detail" x="960" y="180" text-anchor="middle">EPC ERP · .NET 8 + Angular 19</text>
+      <text class="period" x="960" y="202" text-anchor="middle">2024 – Present</text>
+    </g>
+</svg>

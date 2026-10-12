@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Nitish Kumar - Senior .NET and Angular Full Stack Developer">
+  <title>Nitish Kumar - Senior .NET and Angular Full Stack Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="0.5" stop-color="#a855f7"/><stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#6366f1" stop-opacity="0.45"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#06b6d4" stop-opacity="0.35"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .name { font: 800 64px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; letter-spacing: -1.5px; }
+    .role { font: 600 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #e6edf3; }
+    .meta { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #8b949e; }
+    .tag { font: 500 18px ui-monospace,SFMono-Regular,'Cascadia Code',Consolas,'Liberation Mono',monospace; fill: #e6edf3; opacity: 0; animation: cycle 16s infinite; }
+    .prompt { fill: #10b981; }
+    .caret { fill: #10b981; animation: blink 1s steps(2) infinite; }
+    .orb1 { animation: drift 14s ease-in-out infinite alternate; }
+    .orb2 { animation: drift 18s ease-in-out infinite alternate-reverse; }
+    .ring { fill: none; stroke: url(#name); stroke-width: 2; stroke-dasharray: 6 10; animation: spin 40s linear infinite; transform-origin: 1010px 150px; }
+    .code { font: 500 14px ui-monospace,SFMono-Regular,'Cascadia Code',Consolas,'Liberation Mono',monospace; fill: #8b949e; }
+    .k { fill: #a855f7; } .s { fill: #10b981; } .n { fill: #f59e0b; } .p { fill: #e6edf3; }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(6px); }
+      3% { opacity: 1; transform: translateY(0); }
+      22.00% { opacity: 1; transform: translateY(0); }
+      25.00% { opacity: 0; transform: translateY(-6px); }
+      100% { opacity: 0; }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(40px,18px); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .tag { animation: none; } .tag:first-of-type { opacity: 1; } .orb1,.orb2,.ring,.caret { animation: none; } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle class="orb1" cx="180" cy="40" r="220" fill="url(#g1)"/>
+    <circle class="orb2" cx="1060" cy="270" r="240" fill="url(#g2)"/>
+    <rect x="0.5" y="0.5" width="1199" height="299" rx="18" fill="none" stroke="#30363d"/>
+  </g>
+
+  <text class="meta" x="64" y="70">Hi there, I'm</text>
+  <text class="name" x="60" y="132" fill="url(#name)">Nitish Kumar</text>
+  <text class="role" x="64" y="172">Senior .NET &amp; Angular Full Stack Developer</text>
+  <text class="tag" x="64" y="214" style="animation-delay:0s"><tspan class="prompt">&gt; </tspan>Building ERP platforms with .NET 8, Angular 19 and SQL Server</text><text class="tag" x="64" y="214" style="animation-delay:4s"><tspan class="prompt">&gt; </tspan>Designing event-driven microservices with sagas and outboxes</text><text class="tag" x="64" y="214" style="animation-delay:8s"><tspan class="prompt">&gt; </tspan>Shipping AI document search with Claude and hybrid retrieval</text><text class="tag" x="64" y="214" style="animation-delay:12s"><tspan class="prompt">&gt; </tspan>Making SQL Server backups you can actually restore</text>
+  <text class="meta" x="64" y="262">6+ years · ERP · Healthcare · Pune, India · Open to work</text>
+
+  <!-- right: a little class in the style of the portfolio -->
+  <circle class="ring" cx="1010" cy="150" r="118"/>
+  <g transform="translate(860,72)">
+    <rect width="300" height="156" rx="12" fill="#161b22" stroke="#30363d"/>
+    <circle cx="20" cy="18" r="5" fill="#ff5f57"/><circle cx="38" cy="18" r="5" fill="#febc2e"/><circle cx="56" cy="18" r="5" fill="#28c840"/>
+    <text class="code" x="18" y="54"><tspan class="k">var</tspan><tspan class="p"> me = new</tspan><tspan class="k"> Developer</tspan><tspan class="p">{</tspan></text>
+    <text class="code" x="34" y="78"><tspan class="p">Stack = </tspan><tspan class="s">".NET 8 + Angular 19"</tspan><tspan class="p">,</tspan></text>
+    <text class="code" x="34" y="100"><tspan class="p">Years = </tspan><tspan class="n">6</tspan><tspan class="p">,</tspan></text>
+    <text class="code" x="34" y="122"><tspan class="p">OpenToWork = </tspan><tspan class="k">true</tspan></text>
+    <text class="code" x="18" y="144"><tspan class="p">};</tspan><tspan class="caret"> ▌</tspan></text>
+  </g>
+</svg>

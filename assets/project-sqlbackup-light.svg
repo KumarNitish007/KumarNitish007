@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" role="img" aria-label="SqlBackupAgent - SQL Server reliability">
+  <title>SqlBackupAgent - SQL Server reliability</title>
+  <style>
+    .title { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; }
+    .kicker { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #f59e0b; letter-spacing: 1.2px; text-transform: uppercase; }
+    .desc { font: 400 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #57606a; }
+    .pill { font: 500 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; }
+    .arrow { font: 600 18px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #f59e0b; }
+    .card { transition: stroke .2s; }
+  </style>
+  <defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0.2"/></linearGradient></defs>
+  <rect class="card" x="0.5" y="0.5" width="439" height="199" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="0.5" y="0.5" width="439" height="5" rx="2.5" fill="url(#a)"/>
+  <text class="kicker" x="24" y="38">SQL Server reliability</text>
+  <text class="title" x="24" y="70">SqlBackupAgent</text>
+  <text class="arrow" x="410" y="70" text-anchor="end">↗</text>
+  <text class="desc" x="24" y="104">Scheduled backups, chain-safe retention, LSN-based</text><text class="desc" x="24" y="126">point-in-time restores and restore drills.</text>
+  <rect x="24" y="150" width="88" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="68" y="167" text-anchor="middle">SQL Server</text><rect x="120.0" y="150" width="88" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="164" y="167" text-anchor="middle">Azure Blob</text><rect x="216.0" y="150" width="125" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="278" y="167" text-anchor="middle">Windows Service</text><rect x="349.0" y="150" width="36" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="367" y="167" text-anchor="middle">CLI</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" role="img" aria-label="OrderFlow - Event-driven microservices">
+  <title>OrderFlow - Event-driven microservices</title>
+  <style>
+    .title { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #e6edf3; }
+    .kicker { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #06b6d4; letter-spacing: 1.2px; text-transform: uppercase; }
+    .desc { font: 400 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #8b949e; }
+    .pill { font: 500 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #e6edf3; }
+    .arrow { font: 600 18px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #06b6d4; }
+    .card { transition: stroke .2s; }
+  </style>
+  <defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0.2"/></linearGradient></defs>
+  <rect class="card" x="0.5" y="0.5" width="439" height="199" rx="14" fill="#161b22" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="439" height="5" rx="2.5" fill="url(#a)"/>
+  <text class="kicker" x="24" y="38">Event-driven microservices</text>
+  <text class="title" x="24" y="70">OrderFlow</text>
+  <text class="arrow" x="410" y="70" text-anchor="end">↗</text>
+  <text class="desc" x="24" y="104">Saga-orchestrated orders with compensation,</text><text class="desc" x="24" y="126">transactional outbox and distributed tracing.</text>
+  <rect x="24" y="150" width="95" height="26" rx="13" fill="#21262d" stroke="#30363d"/><text class="pill" x="72" y="167" text-anchor="middle">.NET Aspire</text><rect x="127.4" y="150" width="73" height="26" rx="13" fill="#21262d" stroke="#30363d"/><text class="pill" x="164" y="167" text-anchor="middle">RabbitMQ</text><rect x="208.60000000000002" y="150" width="95" height="26" rx="13" fill="#21262d" stroke="#30363d"/><text class="pill" x="256" y="167" text-anchor="middle">MassTransit</text><rect x="312.0" y="150" width="44" height="26" rx="13" fill="#21262d" stroke="#30363d"/><text class="pill" x="334" y="167" text-anchor="middle">YARP</text>
+</svg>

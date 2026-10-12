@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" role="img" aria-label="MiniERP - Multi-tenant SaaS">
+  <title>MiniERP - Multi-tenant SaaS</title>
+  <style>
+    .title { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; }
+    .kicker { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #6366f1; letter-spacing: 1.2px; text-transform: uppercase; }
+    .desc { font: 400 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #57606a; }
+    .pill { font: 500 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; }
+    .arrow { font: 600 18px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #6366f1; }
+    .card { transition: stroke .2s; }
+  </style>
+  <defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#6366f1" stop-opacity="0.2"/></linearGradient></defs>
+  <rect class="card" x="0.5" y="0.5" width="439" height="199" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="0.5" y="0.5" width="439" height="5" rx="2.5" fill="url(#a)"/>
+  <text class="kicker" x="24" y="38">Multi-tenant SaaS</text>
+  <text class="title" x="24" y="70">MiniERP</text>
+  <text class="arrow" x="410" y="70" text-anchor="end">↗</text>
+  <text class="desc" x="24" y="104">Inventory &amp; GST invoicing: CGST/SGST/IGST, gap-free</text><text class="desc" x="24" y="126">numbering, PDF invoices, live dashboard.</text>
+  <rect x="24" y="150" width="58" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="53" y="167" text-anchor="middle">.NET 8</text><rect x="90.4" y="150" width="88" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="134" y="167" text-anchor="middle">Angular 19</text><rect x="186.4" y="150" width="88" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="230" y="167" text-anchor="middle">SQL Server</text><rect x="282.4" y="150" width="58" height="26" rx="13" fill="#eef1f6" stroke="#d0d7de"/><text class="pill" x="312" y="167" text-anchor="middle">Dapper</text>
+</svg>
