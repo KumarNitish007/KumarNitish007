@@ -35,6 +35,7 @@ TAGLINES = [
     "Designing event-driven microservices with sagas and outboxes",
     "Shipping AI document search with Claude and hybrid retrieval",
     "Making SQL Server backups you can actually restore",
+    "Publishing IndiaKit: GST, PAN and Aadhaar tooling for .NET",
 ]
 
 
@@ -134,8 +135,10 @@ PROJECTS = [
     dict(file="project-sqlbackup", title="SqlBackupAgent", accent=ACCENTS[3], kicker="SQL Server reliability",
          lines=["Scheduled backups, chain-safe retention, LSN-based", "point-in-time restores and restore drills."],
          tags=["SQL Server", "Azure Blob", "Windows Service", "CLI"]),
+    dict(file="project-indiakit", title="IndiaKit", accent=ACCENTS[4], kicker="NuGet package",
+         lines=["GSTIN/PAN/Aadhaar validation with real checksums,", "lakh/crore formatting, GST maths, financial years."],
+         tags=["NuGet", "netstandard2.0", ".NET 8", "105 tests"]),
 ]
-
 
 def project_card(p: dict, theme: str) -> str:
     t = THEMES[theme]

@@ -18,7 +18,7 @@
     .name { font: 800 64px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; letter-spacing: -1.5px; }
     .role { font: 600 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #1f2328; }
     .meta { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif; fill: #57606a; }
-    .tag { font: 500 18px ui-monospace,SFMono-Regular,'Cascadia Code',Consolas,'Liberation Mono',monospace; fill: #1f2328; opacity: 0; animation: cycle 16s infinite; }
+    .tag { font: 500 18px ui-monospace,SFMono-Regular,'Cascadia Code',Consolas,'Liberation Mono',monospace; fill: #1f2328; opacity: 0; animation: cycle 20s infinite; }
     .prompt { fill: #10b981; }
     .caret { fill: #10b981; animation: blink 1s steps(2) infinite; }
     .orb1 { animation: drift 14s ease-in-out infinite alternate; }
@@ -29,8 +29,8 @@
     @keyframes cycle {
       0% { opacity: 0; transform: translateY(6px); }
       3% { opacity: 1; transform: translateY(0); }
-      22.00% { opacity: 1; transform: translateY(0); }
-      25.00% { opacity: 0; transform: translateY(-6px); }
+      17.00% { opacity: 1; transform: translateY(0); }
+      20.00% { opacity: 0; transform: translateY(-6px); }
       100% { opacity: 0; }
     }
     @keyframes blink { 50% { opacity: 0; } }
@@ -49,7 +49,7 @@
   <text class="meta" x="64" y="70">Hi there, I'm</text>
   <text class="name" x="60" y="132" fill="url(#name)">Nitish Kumar</text>
   <text class="role" x="64" y="172">Senior .NET &amp; Angular Full Stack Developer</text>
-  <text class="tag" x="64" y="214" style="animation-delay:0s"><tspan class="prompt">&gt; </tspan>Building ERP platforms with .NET 8, Angular 19 and SQL Server</text><text class="tag" x="64" y="214" style="animation-delay:4s"><tspan class="prompt">&gt; </tspan>Designing event-driven microservices with sagas and outboxes</text><text class="tag" x="64" y="214" style="animation-delay:8s"><tspan class="prompt">&gt; </tspan>Shipping AI document search with Claude and hybrid retrieval</text><text class="tag" x="64" y="214" style="animation-delay:12s"><tspan class="prompt">&gt; </tspan>Making SQL Server backups you can actually restore</text>
+  <text class="tag" x="64" y="214" style="animation-delay:0s"><tspan class="prompt">&gt; </tspan>Building ERP platforms with .NET 8, Angular 19 and SQL Server</text><text class="tag" x="64" y="214" style="animation-delay:4s"><tspan class="prompt">&gt; </tspan>Designing event-driven microservices with sagas and outboxes</text><text class="tag" x="64" y="214" style="animation-delay:8s"><tspan class="prompt">&gt; </tspan>Shipping AI document search with Claude and hybrid retrieval</text><text class="tag" x="64" y="214" style="animation-delay:12s"><tspan class="prompt">&gt; </tspan>Making SQL Server backups you can actually restore</text><text class="tag" x="64" y="214" style="animation-delay:16s"><tspan class="prompt">&gt; </tspan>Publishing IndiaKit: GST, PAN and Aadhaar tooling for .NET</text>
   <text class="meta" x="64" y="262">6+ years · ERP · Healthcare · Pune, India · Open to work</text>
 
   <!-- right: a little class in the style of the portfolio -->

@@ -54,6 +54,20 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
       </a>
     </td>
   </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/KumarNitish007/indiakit">
+        <picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-indiakit-dark.svg"><img alt="IndiaKit - Indian business essentials NuGet package" src="assets/project-indiakit-light.svg" width="100%"></picture>
+      </a>
+    </td>
+    <td width="50%" valign="middle">
+      <b>Highlights across these projects</b><br><br>
+      ✅ CI on every repo, with tests against real SQL Server, RabbitMQ and Azure Storage emulators<br>
+      🧪 250+ automated tests, including end-to-end and point-in-time restore tests<br>
+      📐 A <code>docs/decisions.md</code> design write-up in each repo<br>
+      🔐 No secrets in source, ever
+    </td>
+  </tr>
 </table>
 
 | Project | Highlights | CI |
@@ -62,6 +76,7 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
 | [**OrderFlow**](https://github.com/KumarNitish007/orderflow-microservices) | MassTransit saga · outbox/inbox · database per service · OpenTelemetry · Aspire end-to-end tests | [![CI](https://github.com/KumarNitish007/orderflow-microservices/actions/workflows/ci.yml/badge.svg)](https://github.com/KumarNitish007/orderflow-microservices/actions/workflows/ci.yml) |
 | [**AskDocs**](https://github.com/KumarNitish007/askdocs-rag) | Hybrid search (BM25 + vectors, RRF) · SSE streaming · page citations · Claude / Ollama / offline | [![CI](https://github.com/KumarNitish007/askdocs-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/KumarNitish007/askdocs-rag/actions/workflows/ci.yml) |
 | [**SqlBackupAgent**](https://github.com/KumarNitish007/sql-backup-agent) | LSN restore planner · chain-safe retention · restore drills with CHECKDB · Azure Blob | [![CI](https://github.com/KumarNitish007/sql-backup-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/KumarNitish007/sql-backup-agent/actions/workflows/ci.yml) |
+| [**IndiaKit**](https://github.com/KumarNitish007/indiakit) | NuGet package · GSTIN mod-36 & Aadhaar Verhoeff checksums · lakh/crore & amount in words · GST & financial years | [![CI](https://github.com/KumarNitish007/indiakit/actions/workflows/ci.yml/badge.svg)](https://github.com/KumarNitish007/indiakit/actions/workflows/ci.yml) |
 
 > Most of my professional work (ERP, construction-management and healthcare systems) is proprietary, so these public
 > projects show the same kind of engineering in the open.
