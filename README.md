@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://kumarnitish007.github.io/portfolio-master/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-kumarnitish007.github.io-6366f1?style=for-the-badge&logo=githubpages&logoColor=white"></a>
   <a href="https://linkedin.com/in/nitishkumar043"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-nitishkumar043-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://kumarnitish007.github.io/portfolio-master/assets/Nitish_Kumar_CV.pdf"><img alt="Download CV" src="https://img.shields.io/badge/Download-CV%20(PDF)-f59e0b?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"></a>
   <a href="mailto:nknitish043@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Let's%20talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <img alt="Open to work" src="https://img.shields.io/badge/Open%20to%20work-Pune%20·%20Relocate-10b981?style=for-the-badge">
 </p>
@@ -15,11 +16,13 @@
 ### 👋 About me
 
 I'm a **.NET full stack developer with 6+ years** of experience building enterprise **ERP** and **healthcare** systems.
-I work end to end: **Angular 19** screens, **.NET 8** Web APIs, and **SQL Server** stored procedures, plus the
+I work end to end: **Angular 19** screens, **.NET 8 / ASP.NET Core** Web APIs, and **SQL Server** stored procedures,
+integrated with **Microsoft Azure** (Azure AD / Entra ID, Microsoft Graph, Blob Storage, Azure SQL), plus the
 production side (IIS, performance diagnosis, CI/CD).
 
 - 🏗️ Currently building EPC ERP modules (procurement, drawings, bidding, dashboards) at **Orient Technology**
 - 🏥 Previously delivered healthcare ERPs for **Krsnaa Diagnostic** and the **Assam Government** (ABHA)
+- ☁️ Azure in production: Azure AD sign-in, Microsoft Graph user and group data, Blob Storage for documents and drawings, Azure SQL Database
 - 🧭 I care about clean architecture, honest performance diagnosis and systems that stay maintainable
 - 🎓 B.Tech, Maharshi Dayanand University · 🗣️ English, Hindi
 
@@ -114,6 +117,10 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
 
 **Cloud & DevOps**<br>
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure AD](https://img.shields.io/badge/Azure%20AD%20·%20Entra%20ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Microsoft Graph](https://img.shields.io/badge/Microsoft%20Graph-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Azure Blob Storage](https://img.shields.io/badge/Azure%20Blob%20Storage-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure SQL](https://img.shields.io/badge/Azure%20SQL%20Database-0078D4?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![.NET Aspire](https://img.shields.io/badge/.NET%20Aspire-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
@@ -135,10 +142,12 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
 
 - **Orient Technology** (Aug 2024 – present), .NET Developer, EPC ERP: built end-to-end modules (Angular UI → .NET Web API → SQL Server):
   Drawing Master and Release, Critical Issue dashboard, Bid / No-Bid workflow with a weightage engine, and Conference Room & Lunch Booking.
+  Integrated Azure AD (Entra ID) sign-in and Microsoft Graph for role-based access; stored documents and drawings in Azure Blob Storage;
+  worked with Azure SQL Database alongside on-premise SQL Server.
   Implemented single sign-on from the legacy Web Forms portal into Angular without credentials in URLs. Diagnosed slowness as
   network-bound and improved load times with response compression and connection-pool warm-up.
 - **Medimaze Solution** (formerly Techjivaa, Jun 2022 – Aug 2024), Software Developer: Krsnaa ERP and Admin Portal, and the
-  ABHA healthcare ERP for the Assam Government; Web APIs, MVC front ends and Telerik reports in a 17-member team.
+  ABHA healthcare ERP for the Assam Government; Web APIs, Angular and MVC front ends and Telerik reports in a 17-member team.
 - **Reliance Jio** (Jul 2021 – May 2022), Software Engineer: built the FTTx fibre-rollout portal and Live Tracker for Construction, GIS and Production teams (ASP.NET Core MVC, C#, SQL Server).
 - **Glyphisoft Technology** (Jul 2019 – Feb 2021), .NET Developer: ERP modules with ASP.NET Core MVC, C# and SQL Server.
 
@@ -154,5 +163,5 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
 </picture>
 
 <p align="center">
-  <sub>Hiring for .NET / Angular full stack roles? I'd love to talk: <a href="mailto:nknitish043@gmail.com">nknitish043@gmail.com</a></sub>
+  <sub>Hiring for .NET / Angular full stack roles? I'd love to talk: <a href="mailto:nknitish043@gmail.com">nknitish043@gmail.com</a> · <a href="https://kumarnitish007.github.io/portfolio-master/assets/Nitish_Kumar_CV.pdf">Download my CV (PDF)</a></sub>
 </p>
