@@ -15,7 +15,7 @@
 
 ### 👋 About me
 
-I'm a **.NET full stack developer with 6+ years** of experience building enterprise **ERP** and **healthcare** systems.
+I'm a **.NET full stack developer with 7+ years** of experience building enterprise **ERP** and **healthcare** systems.
 I work end to end: **Angular 19** screens, **.NET 8 / ASP.NET Core** Web APIs, and **SQL Server** stored procedures,
 integrated with **Microsoft Azure** (Azure AD / Entra ID, Microsoft Graph, Blob Storage, Azure SQL), plus the
 production side (IIS, performance diagnosis, CI/CD).

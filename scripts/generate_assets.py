@@ -103,7 +103,7 @@ def header(theme: str) -> str:
   <text class="name" x="60" y="132" fill="url(#name)">Nitish Kumar</text>
   <text class="role" x="64" y="172">Senior .NET &amp; Angular Full Stack Developer</text>
   {''.join(lines)}
-  <text class="meta" x="64" y="262">6+ years · ERP · Healthcare · Pune, India · Open to work</text>
+  <text class="meta" x="64" y="262">7+ years · ERP · Healthcare · Pune, India · Open to work</text>
 
   <!-- right: a little class in the style of the portfolio -->
   <circle class="ring" cx="1010" cy="150" r="118"/>
