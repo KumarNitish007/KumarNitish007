@@ -21,6 +21,7 @@ integrated with **Microsoft Azure** (Azure AD / Entra ID, Microsoft Graph, Blob 
 production side (IIS, performance diagnosis, CI/CD).
 
 - 🏗️ Currently building EPC ERP modules (procurement, drawings, bidding, dashboards) at **Orient Technology**
+- 🤖 Use **Claude (Claude Code)** and **ChatGPT / OpenAI Codex** day to day for AI-assisted coding, prompt-based code reviews and code optimization
 - 🏥 Previously delivered healthcare ERPs for **Krsnaa Diagnostic** and the **Assam Government** (ABHA)
 - ☁️ Azure in production: Azure AD sign-in, Microsoft Graph user and group data, Blob Storage for documents and drawings, Azure SQL Database
 - 🧭 I care about clean architecture, honest performance diagnosis and systems that stay maintainable
@@ -111,6 +112,8 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
 ![T-SQL](https://img.shields.io/badge/Stored%20procedures-CC2927?style=flat-square)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![ChatGPT / Codex](https://img.shields.io/badge/ChatGPT%20·%20Codex-412991?style=flat-square&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-hybrid%20search-6366f1?style=flat-square)
 ![Crystal Reports](https://img.shields.io/badge/Crystal%20Reports-1F6FEB?style=flat-square)
 ![Telerik](https://img.shields.io/badge/Telerik%20Reports-5CE500?style=flat-square&logo=progress&logoColor=black)
@@ -146,6 +149,7 @@ Open-source projects built from scratch. Each one has CI, tests against real inf
   worked with Azure SQL Database alongside on-premise SQL Server.
   Implemented single sign-on from the legacy Web Forms portal into Angular without credentials in URLs. Diagnosed slowness as
   network-bound and improved load times with response compression and connection-pool warm-up.
+  Use Claude (Claude Code) and ChatGPT / OpenAI Codex for AI-assisted coding, prompt-based code reviews and code optimization.
 - **Medimaze Solution** (formerly Techjivaa, Jun 2022 – Aug 2024), Software Developer: Krsnaa ERP and Admin Portal, and the
   ABHA healthcare ERP for the Assam Government; Web APIs, Angular and MVC front ends and Telerik reports in a 17-member team.
 - **Reliance Jio** (Jul 2021 – May 2022), Software Engineer: built the FTTx fibre-rollout portal and Live Tracker for Construction, GIS and Production teams (ASP.NET Core MVC, C#, SQL Server).
